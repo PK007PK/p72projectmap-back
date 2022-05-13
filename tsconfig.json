@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true, //Brak możliwości niejawnego dopuszczenia any
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "target": "ES6",
+        "downlevelIteration": true, //Żebyśmy mogli iterować po różnych rzeczach które nie są tablicami,
+        "module": "CommonJs", //Jakie importy, chcemy rozpoznawalne przez noda, czyli require,
+        "lib": ["es6"],
+        "outDir": "dist",
+        "experimentalDecorators": true, //To i poniższe na wypadek dekoratorów. 
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+    }
+}
