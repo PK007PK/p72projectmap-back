@@ -13,6 +13,6 @@ app.use(json());
 app.listen(3001, '0.0.0.0', ()=>{
     console.log('Listening on port http://localhost:3001');
 });
-app.get('/', async ())
+// app.get('/', async ())
 
 app.use(handleError);
